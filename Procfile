@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/my-starter-project-2.0-SNAPSHOT.jar --server.port=$PORT
+web: java $JAVA_OPTS -jar target/*.jar --server.port=$PORT
